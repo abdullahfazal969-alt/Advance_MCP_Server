@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+spec.txt
+
+# FastMCP/MCP generated files
+mcp-server-*.json
+logs/
+*.log
+
+# Project-specific data directories
+data/
+
+# IDE/Editor files
+.vscode/
+.idea/
+.zed/
+*~
+#*#
+
+# OS generated files
+.DS_Store
+Thumbs.db
