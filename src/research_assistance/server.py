@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 # 2. Instantiate FastMCP Server
 mcp = FastMCP(
     name="ResearchAssistantServer",
-    # REMOVED: description="A server providing tools for research document management and analysis.",
 )
 
 # 3. Register Tools
@@ -27,5 +26,7 @@ if __name__ == "__main__":
             logger.warning(f"Tenant data directory does not exist, creating: {tenant_path}")
             tenant_path.mkdir(parents=True, exist_ok=True)
     
-    mcp.run() 
+    # Run the MCP server in HTTP mode for interaction via mcp dev client
+    logger.info("Server running in HTTP mode on http://0.0.0.0:8000")
+    mcp.run(transport="http", host="0.0.0.0", port=8000) # This will run until interrupted (Ctrl+C)
     logger.info("Research Assistant MCP Server stopped.")
