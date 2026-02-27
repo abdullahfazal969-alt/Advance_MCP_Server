@@ -40,6 +40,6 @@ if __name__ == "__main__":
 
     # Run the MCP server via STDIO (default) for easy manual testing
     try:
-        mcp.run()
+        mcp.run(transport="http", port=8080)
     except KeyboardInterrupt:
         logger.info("Research Assistant MCP Server stopped.")
