@@ -22,3 +22,17 @@ This repository focuses on:
 ```bash
 git clone https://github.com/abdullahfazal969-alt/Advance_MCP_Server.git
 cd Advance_MCP_Server
+
+2. Install Dependencies
+If you are using uv:
+uv sync
+
+Or install with pip:
+
+pip install -r requirements.txt
+
+3. Run the MCP Server
+fastmcp run src/research_assistance/server.py
+
+This will start the MCP server locally so it can be inspected or connected to MCP clients.
+
