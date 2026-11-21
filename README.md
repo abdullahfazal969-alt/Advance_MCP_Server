@@ -1,5 +1,7 @@
 # Advance MCP Server
 
+> How it was built and why: [case study on my portfolio](https://abdullahfazal.net/work/mcp-server)
+
 This repository demonstrates the **production fundamentals of building MCP (Model Context Protocol) servers using FastMCP**.
 
 The core objective of this project is to showcase how developers can build structured MCP servers with **production-ready patterns**, including server structure, tools, and development workflow. The project serves as a **reference implementation** for developers who want to understand how MCP servers are designed and organized in real-world environments.
@@ -36,5 +38,12 @@ fastmcp run src/research_assistance/server.py
 
 This will start the MCP server locally so it can be inspected or connected to MCP clients.
 
+---
 
+## Author
 
+**Abdullah Fazal**, computer engineering student at UET Taxila, curious about how things work.
+
+- Portfolio: [abdullahfazal.net](https://abdullahfazal.net)
+- LinkedIn: [abdullah-fazal-2985a2298](https://www.linkedin.com/in/abdullah-fazal-2985a2298/)
+- CV: [abdullahfazal.net/cv](https://abdullahfazal.net/cv)
